@@ -2,7 +2,7 @@
 Git cheatsheet based on the "Introduction to Git and GitHub" course offered by Google on Coursera.
 
 
-## Advanced Git Cheat Sheet
+## Basic Git Cheat Sheet
 
 `git commit -a`: stages files automatically  
 `git log -p`: produces patch text  
@@ -31,3 +31,18 @@ Git cheatsheet based on the "Introduction to Git and GitHub" course offered by G
 `git merge <branch>`: merge joins branches together  
 `git merge --abort`: if there are merge conflicts (meaning files are incompatible), `--abort` can be used to abort the merge action  
 `git log --graph --oneline`: this shows a summarized view of the commit history for a repo  
+
+## Interaction with GitHub Cheat Sheet
+`git clone URL`: Git clone is used to clone a remote repository into a local workspace  
+`git push`: Git push is used to push commits from your local repo to a remote repo  
+`git pull`: Git pull is used to fetch the newest updates from a remote repository  
+
+## Git Remotes Cheat Sheet
+`git remote`: lists remote repos  
+`git remote -v`: list remote repos verbosely  
+`git remote show <name>`: describes a single remote repo  
+`git remote update`: fetches the most up-to-date objects  
+`git fetch`: downloads specific objects  
+`git branch -r`: lists remote branches; can be combined with other branch arguments to manage remote branches  
+ `git rebase branchname`: can be used to change the base of the current branch to be `branchname`  
+
